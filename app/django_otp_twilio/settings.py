@@ -133,7 +133,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ACCOUNT_SID = "ACc0fe71b7dc8a7a2ef357a83c41e18f66"
-AUTH_TOKEN = "0b1a4f3d13a7b6f4ae946c5fd2644a27"
+ACCOUNT_SID = "Your-TWILIO-ACCOUNT-SID"
+AUTH_TOKEN = "Your-TWILIO-Auth-Token"
 
 CELERY_BROKER_URL = "redis://redis/1"
